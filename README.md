@@ -180,20 +180,33 @@ aplicada ao mercado imobiliário.
 
 <!--
   ────────────────────────────────────────────────────────────────
+  ANTES DE TUDO: DESLIGAR O PERFIL PRIVADO
+
+  Settings → Public profile → desmarque "Make profile private".
+
+  Verificado em 07/08/2026, deslogado: com essa opção ligada, o
+  github.com/joaowehner mostra só o card "@joaowehner's activity is
+  private" — sem README, sem repositórios populares, sem gráfico de
+  contribuições. Este README existe e renderiza corretamente (veja
+  github.com/joaowehner/joaowehner), mas não chega ao perfil
+  enquanto a opção estiver marcada.
+
+  ────────────────────────────────────────────────────────────────
   CARDS DE ESTATÍSTICA — prontos para ligar quando fizer sentido.
 
-  Ficaram de fora de propósito: o perfil tem hoje 1 repositório
-  público e o contador de contribuições do GitHub marca 0 no último
-  ano, então os cards exibiriam zeros e passariam a impressão errada.
+  Ficaram de fora de propósito: o contador de contribuições do
+  GitHub marca 0 no último ano, então os cards exibiriam zeros e
+  passariam a impressão errada.
 
   Para ligá-los:
-  1. Settings → Public profile → marque
+  1. Desligue o perfil privado (acima)
+  2. Settings → Public profile → marque
      "Include private contributions on my profile"
      (faz o trabalho nos repositórios privados aparecer no gráfico)
-  2. Confira em Settings → Emails que o e-mail dos commits
+  3. Confira em Settings → Emails que o e-mail dos commits
      (46334903+joaowehner@users.noreply.github.com) está listado
-  3. Espere o gráfico de contribuições sair do zero
-  4. Apague este comentário e cole o bloco abaixo onde quiser
+  4. Espere o gráfico de contribuições sair do zero
+  5. Apague este comentário e cole o bloco abaixo onde quiser
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=joaowehner&show_icons=true&hide_border=true&bg_color=0a0d12&title_color=3ECF8E&text_color=93A4B8&icon_color=6CB8D6" height="160" alt="Estatísticas do GitHub">
