@@ -1,0 +1,13 @@
+# Este repositório existe para o README de perfil. O conteúdo é o
+# README; o resto é ferramental. Sem isto, o Linguist conta os dois
+# .mjs de scripts/ e o cartão fixado no perfil aparece rotulado como
+# "JavaScript", competindo com o "TypeScript" do portfólio ao lado.
+scripts/** linguist-detectable=false
+
+# Gerados por `npm run assets` — não editar à mão. Marcar como
+# gerados também colapsa o diff, que é o que queremos: banner.svg
+# carrega ~30 KB de fonte em base64 e poluiria toda revisão.
+assets/*.svg linguist-generated=true
+
+# Fonte da marca, embutida no banner pelo build.
+*.woff2 binary
