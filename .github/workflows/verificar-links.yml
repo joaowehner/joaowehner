@@ -1,0 +1,46 @@
+name: Verificar links do perfil
+
+# O README do perfil depende de serviços externos (shields.io,
+# skillicons.dev, readme-typing-svg) e de links para os projetos em
+# produção. Se algum sair do ar, o perfil quebra em silêncio — este
+# workflow avisa antes que alguém veja.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 9 * * 1' # toda segunda-feira, 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checar todas as URLs do README
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 999 = resposta padrão do LinkedIn para requisições
+          # automatizadas; o link é válido para pessoas.
+          args: >-
+            --no-progress
+            --max-retries 3
+            --accept 200,206,999
+            --exclude github-readme-stats\.vercel\.app
+            README.md
+          fail: false
+          output: ./lychee/resultado.md
+
+      - name: Abrir issue se algum link quebrou
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link quebrado no README do perfil
+          content-filepath: ./lychee/resultado.md
+          labels: manutencao

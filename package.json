@@ -1,0 +1,17 @@
+{
+  "name": "joaowehner-profile",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "README de perfil do GitHub de João Guilherme Wehner Ricartes, com assets SVG gerados a partir dos design tokens do site.",
+  "author": "joaowehner (João Guilherme Wehner Ricartes) <46334903+joaowehner@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "assets": "node scripts/build-assets.mjs",
+    "preview": "node scripts/preview.mjs",
+    "check": "npm run assets && npm run preview"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}
