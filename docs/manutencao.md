@@ -30,20 +30,21 @@ O `preview` usa a API de markdown do GitHub (via `gh`), então o resultado é o
 mesmo renderizador do site — não uma aproximação. Ele falha com código 1 se
 encontrar imagem quebrada ou estouro horizontal.
 
-## O perfil privado bloqueia este README
+## Não religue o "perfil privado"
 
-**Settings → Public profile → desmarque "Make profile private".**
+Em **Settings → Public profile → Contributions & activity**, a opção
+`Make profile private and hide activity` precisa ficar **desmarcada**.
 
-Verificado em 07/08/2026, com o navegador deslogado: enquanto essa opção
-estiver marcada, `github.com/joaowehner` renderiza apenas o card
-`@joaowehner's activity is private` — sem README, sem repositórios
-populares, sem gráfico de contribuições. A documentação do GitHub afirma que
-o README continua visível em perfis privados, mas o comportamento observado é
-o oposto: o overview inteiro é substituído pelo card.
+Enquanto esteve marcada (até 07/08/2026), `github.com/joaowehner` renderizava
+apenas o card `@joaowehner's activity is private`: sem README, sem
+repositórios populares e com o gráfico de contribuições zerado. A
+documentação do GitHub afirma que o README continua visível em perfis
+privados, mas o comportamento observado deslogado era o oposto — o overview
+inteiro era substituído pelo card.
 
-O README em si está correto e renderiza normalmente em
-<https://github.com/joaowehner/joaowehner> — o bloqueio é só a opção de
-privacidade.
+Ao desmarcar, o perfil passou de 0 para 34 contribuições no último ano, com os
+repositórios privados contabilizados (a opção
+`Include private contributions on my profile` já estava ligada).
 
 ## Decisões que valem lembrar
 
