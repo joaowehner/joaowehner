@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="João Guilherme Wehner — Desenvolvedor Full-Stack e Co-CEO na TSW Soluções Inteligentes">
+  <img src="assets/banner.svg" width="100%" alt="João Guilherme Wehner · Desenvolvedor Full-Stack e Co-CEO na TSW Soluções Inteligentes">
 </div>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3800&pause=900&color=6CB8D6&width=560&height=38&lines=%E2%96%B8+Sistemas+sob+medida+para+o+mercado+imobili%C3%A1rio;%E2%96%B8+Do+layout+ao+deploy%2C+mantido+de+ponta+a+ponta;%E2%96%B8+Aberto+a+parcerias+e+projetos+sob+medida" alt="Sistemas sob medida para o mercado imobiliário · Do layout ao deploy, mantido de ponta a ponta · Aberto a parcerias e projetos sob medida">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3800&pause=900&color=6CB8D6&width=560&height=38&lines=%E2%96%B8+Sistemas+sob+medida+para+o+mercado+imobili%C3%A1rio;%E2%96%B8+CRM%2C+API+de+leads+e+sites+da+TSW;%E2%96%B8+Do+layout+ao+deploy%2C+mantido+por+mim" alt="Sistemas sob medida para o mercado imobiliário · CRM, API de leads e sites da TSW · Do layout ao deploy, mantido por mim">
 
 <a href="https://joaowehner.github.io"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0f141c?style=flat-square&logo=githubpages&logoColor=3ECF8E&labelColor=0a0d12" alt="Portfólio"></a>
 <a href="https://www.linkedin.com/in/joaowehner"><img src="https://img.shields.io/badge/LinkedIn-0f141c?style=flat-square&logo=linkedin&logoColor=6CB8D6&labelColor=0a0d12" alt="LinkedIn"></a>
@@ -21,17 +21,17 @@ joaowehner · João Guilherme Wehner Ricartes
 
 $ cat sobre.txt
 Desenvolvedor full-stack e Co-CEO na TSW Soluções Inteligentes
-e no Grupo Wehner — ecossistema de negócios e tecnologia
-imobiliária em Campo Grande, MS.
+e no Grupo Wehner, negócios de tecnologia e mercado imobiliário
+em Campo Grande, MS.
 
-Liderar a operação muda o jeito de programar: cada decisão
-técnica aqui também é uma decisão de negócio. Na prática isso
-vira site em produção, integração que centraliza a captação
-de leads e fluxo de atendimento automatizado com IA — tudo
-mantido de ponta a ponta por mim, do layout ao deploy.
+Como também toco a operação, quase tudo que eu construo vem de
+um problema que a empresa está tendo. Já saiu daí o site
+institucional que está no ar, a integração que reúne os leads
+num lugar só e um fluxo de atendimento automatizado com IA.
+Depois que entra em produção, continua comigo.
 
 $ echo $FOCO
-CRM sob medida para a operação imobiliária do Grupo Wehner
+CRM próprio para a operação imobiliária do Grupo Wehner
 ```
 
 ## Perfil
@@ -55,7 +55,7 @@ const joao = {
     ],
   },
 
-  principio: 'Cada decisão técnica aqui é uma decisão de negócio.',
+  principio: 'Quem decide o negócio aqui é quem escreve o código.',
 } as const
 ```
 
@@ -90,11 +90,11 @@ const joao = {
 
 <img src="https://img.shields.io/badge/em%20evolu%C3%A7%C3%A3o-D8B06A?style=flat-square&labelColor=0f141c" alt="em evolução">
 
-Sistema de gestão comercial sob medida para o Grupo Wehner: pipeline de vendas, acompanhamento de clientes, integração com a captação de leads e automações internas.
+Sistema de gestão comercial que estou construindo para o Grupo Wehner: pipeline de vendas, acompanhamento de clientes, integração com a captação de leads e automações internas.
 
 `React` `TypeScript` `Node.js` `Supabase`
 
-<sub>Arquitetura, desenvolvimento e produto · em desenvolvimento</sub>
+<sub>Arquitetura, desenvolvimento e produto</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -103,9 +103,9 @@ Sistema de gestão comercial sob medida para o Grupo Wehner: pipeline de vendas,
 
 <img src="https://img.shields.io/badge/em%20produ%C3%A7%C3%A3o-3ECF8E?style=flat-square&labelColor=0f141c" alt="em produção">
 
-API que centraliza os leads do site, de formulários e de campanhas e os entrega direto ao fluxo comercial da TSW, com dashboard administrativo próprio. O time recebe, ninguém redistribui na mão.
+API que recebe os leads do site, de formulários e de campanhas, guarda tudo em Postgres e entrega direto ao fluxo comercial da TSW. O lead chega no time sem ninguém repassar na mão, e o dashboard administrativo mostra o que entrou.
 
-`Node.js` `JavaScript` `APIs REST`
+`Node.js` `JavaScript` `PostgreSQL` `APIs REST`
 
 <sub>Arquitetura e implementação · repositório privado</sub>
 
@@ -118,7 +118,7 @@ API que centraliza os leads do site, de formulários e de campanhas e os entrega
 
 <img src="https://img.shields.io/badge/em%20produ%C3%A7%C3%A3o-3ECF8E?style=flat-square&labelColor=0f141c" alt="em produção">
 
-Portfólio em estética de terminal, construído do zero sem template: React 19, TypeScript strict, CSS autoral com design tokens e um terminal interativo testado.
+Portfólio em estética de terminal, feito do zero sem template: React 19, TypeScript strict, CSS autoral com design tokens e um terminal interativo com testes.
 
 `React` `TypeScript` `Vite` `GitHub Actions`
 
@@ -127,15 +127,15 @@ Portfólio em estética de terminal, construído do zero sem template: React 19,
 </td>
 <td width="50%" valign="top">
 
-### [TSW — Site institucional](https://tswsolucoesinteligentes.com.br)
+### [TSW · Site institucional](https://tswsolucoesinteligentes.com.br)
 
 <img src="https://img.shields.io/badge/em%20produ%C3%A7%C3%A3o-3ECF8E?style=flat-square&labelColor=0f141c" alt="em produção">
 
-Presença digital da consultoria: serviços, metodologia e captação de clientes para negócios imobiliários, crédito e curadoria de investimentos.
+Onde a consultoria se apresenta: os serviços em negócios imobiliários, crédito e curadoria de investimentos, e como ela trabalha. Os formulários daqui caem na API de leads.
 
 `HTML` `CSS` `JavaScript` `Hostinger`
 
-<sub>Desenvolvimento completo, do layout ao deploy · <a href="https://tswsolucoesinteligentes.com.br">tswsolucoesinteligentes.com.br</a></sub>
+<sub>Desenvolvimento completo · <a href="https://tswsolucoesinteligentes.com.br">tswsolucoesinteligentes.com.br</a></sub>
 
 </td>
 </tr>
@@ -143,8 +143,9 @@ Presença digital da consultoria: serviços, metodologia e captação de cliente
 
 ## Como eu entrego
 
-Não paro no "funciona na minha máquina". O portfólio é o exemplo público
-disso — cada push passa pelo mesmo caminho antes de ir ao ar:
+O portfólio é o único desses projetos com código aberto, então é onde
+dá pra conferir. Cada push passa pelo mesmo caminho antes de ir ao ar,
+e se um passo falha o deploy nem começa:
 
 ```console
 $ git push origin main
@@ -159,15 +160,15 @@ $ git push origin main
 ● joaowehner.github.io · live
 ```
 
-Fora do CI, o mesmo projeto roda uma bateria local de QA com Playwright:
-regressão visual em 9 resoluções, validação de interação e auditoria de
-acessibilidade com axe-core (WCAG AA). O resultado publicado marca
-**99 · 100 · 100 · 100** no Lighthouse.
+Fora do CI eu rodo uma bateria local com Playwright: regressão visual
+em 9 resoluções, checagem de interação e auditoria de acessibilidade
+com axe-core (WCAG AA). No Lighthouse, a versão publicada dá
+**99 · 100 · 100 · 100**.
 
 ## Contato
 
-Aberto a parcerias, projetos sob medida e conversas sobre tecnologia
-aplicada ao mercado imobiliário.
+Aberto a parcerias e a projetos de fora, principalmente no mercado
+imobiliário. Qualquer um dos links abaixo chega em mim.
 
 <a href="https://joaowehner.github.io"><img src="https://img.shields.io/badge/joaowehner.github.io-0f141c?style=flat-square&logo=githubpages&logoColor=3ECF8E&labelColor=0a0d12" alt="Portfólio"></a>
 <a href="https://www.linkedin.com/in/joaowehner"><img src="https://img.shields.io/badge/in%2Fjoaowehner-0f141c?style=flat-square&logo=linkedin&logoColor=6CB8D6&labelColor=0a0d12" alt="LinkedIn"></a>
@@ -176,37 +177,36 @@ aplicada ao mercado imobiliário.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<sub><code>~ $ exit</code> — obrigado pela visita.</sub>
+<sub><code>~ $ exit</code> · obrigado pela visita.</sub>
 
 <!--
   ────────────────────────────────────────────────────────────────
-  ANTES DE TUDO: DESLIGAR O PERFIL PRIVADO
+  PERFIL PRIVADO: MANTER DESLIGADO
 
-  Settings → Public profile → desmarque "Make profile private".
+  Settings → Public profile → "Make profile private" precisa ficar
+  desmarcada.
 
-  Verificado em 07/08/2026, deslogado: com essa opção ligada, o
-  github.com/joaowehner mostra só o card "@joaowehner's activity is
-  private" — sem README, sem repositórios populares, sem gráfico de
-  contribuições. Este README existe e renderiza corretamente (veja
-  github.com/joaowehner/joaowehner), mas não chega ao perfil
-  enquanto a opção estiver marcada.
+  Enquanto esteve marcada (até 07/08/2026), o github.com/joaowehner
+  mostrava, deslogado, só o card "@joaowehner's activity is
+  private": sem README, sem repositórios populares, sem gráfico de
+  contribuições. Depois de desmarcar, o perfil voltou a renderizar
+  este README (conferido em 08/08/2026, deslogado).
 
   ────────────────────────────────────────────────────────────────
-  CARDS DE ESTATÍSTICA — prontos para ligar quando fizer sentido.
+  CARDS DE ESTATÍSTICA · prontos para ligar quando fizer sentido.
 
-  Ficaram de fora de propósito: o contador de contribuições do
-  GitHub marca 0 no último ano, então os cards exibiriam zeros e
-  passariam a impressão errada.
+  Ficaram de fora quando o contador de contribuições marcava 0 no
+  último ano e os cards só exibiriam zeros. Em 08/08/2026 o contador
+  estava em 36 contribuições, então o que segura agora é só critério
+  próprio: ligue quando o número parecer representativo.
 
-  Para ligá-los:
-  1. Desligue o perfil privado (acima)
-  2. Settings → Public profile → marque
-     "Include private contributions on my profile"
-     (faz o trabalho nos repositórios privados aparecer no gráfico)
-  3. Confira em Settings → Emails que o e-mail dos commits
-     (46334903+joaowehner@users.noreply.github.com) está listado
-  4. Espere o gráfico de contribuições sair do zero
-  5. Apague este comentário e cole o bloco abaixo onde quiser
+  Antes de ligar, confira:
+  1. Settings → Public profile → "Include private contributions on
+     my profile" marcada (já estava, é o que faz o trabalho nos
+     repositórios privados contar no gráfico)
+  2. Settings → Emails com o e-mail dos commits
+     (46334903+joaowehner@users.noreply.github.com) listado
+  3. Apague este comentário e cole o bloco abaixo onde quiser
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=joaowehner&show_icons=true&hide_border=true&bg_color=0a0d12&title_color=3ECF8E&text_color=93A4B8&icon_color=6CB8D6" height="160" alt="Estatísticas do GitHub">
