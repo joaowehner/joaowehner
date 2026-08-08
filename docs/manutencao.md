@@ -59,8 +59,15 @@ sans-serif mantém o layout de pé.
 `joaowehner.github.io`. Mudou a paleta lá, atualize aqui e rode `npm run assets`.
 
 **Os cards de estatística estão comentados no fim do README, de propósito.**
-Enquanto o contador de contribuições do GitHub estiver em zero, eles exibiriam
-zeros. O próprio comentário explica o que ligar para que passem a fazer sentido.
+O motivo mudou. Antes era o contador em zero; em 08/08/2026 ele já marcava 37
+contribuições. O que impede agora é que 22 dessas 37 são privadas e o
+`github-readme-stats` público só enxerga dado público, então o card mostraria
+13 commits, 0 PRs, 0 issues, 0 seguidores e 1 estrela. `count_private=true` não
+ajuda: só funciona em instância própria, com token próprio. Se um dia valer a
+pena, o caminho que combina com este repositório é gerar o card como SVG em
+`assets/`, junto do banner, usando a API autenticada para contar as privadas.
+O card de linguagens não sofre disso e sairia correto. O comentário no fim do
+README tem os números e a checagem de 503 do serviço.
 
 **Nada de linha com mais de ~72 caracteres nos blocos de código.** Acima disso
 o bloco ganha barra de rolagem horizontal e corta a leitura no celular.

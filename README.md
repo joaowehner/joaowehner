@@ -193,20 +193,30 @@ imobiliário. Qualquer um dos links abaixo chega em mim.
   este README (conferido em 08/08/2026, deslogado).
 
   ────────────────────────────────────────────────────────────────
-  CARDS DE ESTATÍSTICA · prontos para ligar quando fizer sentido.
+  CARDS DE ESTATÍSTICA · seguem desligados, e não é mais por zero.
 
-  Ficaram de fora quando o contador de contribuições marcava 0 no
-  último ano e os cards só exibiriam zeros. Em 08/08/2026 o contador
-  estava em 36 contribuições, então o que segura agora é só critério
-  próprio: ligue quando o número parecer representativo.
+  O motivo antigo caiu: em 08/08/2026 o gráfico do perfil marcava 37
+  contribuições, não 0. O problema agora é outro. Dessas 37, 22 são
+  privadas, e o github-readme-stats público só lê dado público. Com
+  os números daquele dia o card mostraria 13 commits, 0 PRs, 0
+  issues, 0 seguidores e 1 estrela, ou seja, menos do que o perfil
+  já mostra sozinho.
 
-  Antes de ligar, confira:
-  1. Settings → Public profile → "Include private contributions on
-     my profile" marcada (já estava, é o que faz o trabalho nos
-     repositórios privados contar no gráfico)
-  2. Settings → Emails com o e-mail dos commits
-     (46334903+joaowehner@users.noreply.github.com) listado
-  3. Apague este comentário e cole o bloco abaixo onde quiser
+  `count_private=true` não resolve: só tem efeito em instância
+  própria, com token próprio. Para os números reais aparecerem, as
+  saídas são hospedar a própria instância do github-readme-stats ou
+  gerar o card como SVG em assets/, do mesmo jeito que o banner já é
+  gerado (aí dá para usar a API autenticada e contar as privadas).
+
+  O card de linguagens não tem esse problema e sairia correto:
+  TypeScript 54,6% · CSS 23,4% · JavaScript 20,2% · HTML 1,9%.
+
+  Antes de ligar qualquer um dos dois, confira se o serviço está de
+  pé: em 08/08/2026 o github-readme-stats.vercel.app devolvia 503 em
+  todas as rotas, inclusive na raiz. Fora do ar, o perfil ganha duas
+  imagens quebradas.
+
+  Para ligar: apague este comentário e cole o bloco abaixo.
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=joaowehner&show_icons=true&hide_border=true&bg_color=0a0d12&title_color=3ECF8E&text_color=93A4B8&icon_color=6CB8D6" height="160" alt="Estatísticas do GitHub">
